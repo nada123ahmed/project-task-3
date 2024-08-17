@@ -1,0 +1,59 @@
+/* #developer-content{
+
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+#Header{
+   color: aliceblue;
+
+}
+#Para{
+    color: hsl(75, 94%, 57%);
+  
+}
+#Bio{
+    color: aliceblue;
+    padding: 20px;
+   font-size: 15px;
+}
+
+ */
+
+ #developer-content {
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+#Header {
+    color: aliceblue;
+    font-size: 1.5em; /* Adjusted for responsiveness */
+}
+
+#Para {
+    color: hsl(75, 94%, 57%);
+    font-size: 1.2em; /* Adjusted for responsiveness */
+}
+
+#Bio {
+    color: aliceblue;
+    padding: 20px;
+    font-size: 1em; /* Adjusted for responsiveness */
+}
+
+@media (max-width: 768px) {
+    #Header {
+        font-size: 1.2em;
+    }
+    
+    #Para {
+        font-size: 1em;
+    }
+
+    #Bio {
+        font-size: 0.9em;
+        padding: 10px;
+    }
+}
+

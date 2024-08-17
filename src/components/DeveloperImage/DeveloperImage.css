@@ -1,0 +1,30 @@
+ /* #DeveloperImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+#Image{
+    border-radius: 50%;
+   
+   width: 100px;
+    
+} */
+
+#DeveloperImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px; /* Added height to keep the aspect ratio */
+}
+
+@media (max-width: 768px) {
+    #Image {
+        width: 80px;
+        height: 80px;
+    }
+}
